@@ -330,5 +330,153 @@
     "music.drumClaves": {
         "message": "(9) Claves",
         "description": "Sound of claves being struck together"
+    },
+    "ftxt.input_mode_d10v": {
+        "message": "Digital voltage",
+        "description": "Digital voltage"
+    },
+    "ftxt.input_mode_d5k": {
+        "message": "Digital resistance",
+        "description": "Digital resistance"
+    },
+    "ftxt.input_mode_a10v": {
+        "message": "Analogue voltage",
+        "description": "Analogue voltage"
+    },
+    "ftxt.input_mode_a5k": {
+        "message": "Analogue resistance",
+        "description": "Analogue resistance"
+    },
+    "ftxt.input_mode_ultrasonic": {
+        "message": "Ultrasonic",
+        "description": "Ultrasonic"
+    },
+    "ftxt.sensor_analog_color": {
+        "message": "Color Sensor",
+        "description": "Color Sensor"
+    },
+    "ftxt.sensor_analog_distance": {
+        "message": "Distance Sensor",
+        "description": "Distance Sensor"
+    },
+    "ftxt.sensor_analog_ntc": {
+        "message": "NTC Resistor",
+        "description": "NTC Resistor"
+    },
+    "ftxt.sensor_analog_photo": {
+        "message": "Photo Resistor",
+        "description": "Photo Resistor"
+    },
+    "ftxt.sensor_digital_button": {
+        "message": "Button",
+        "description": "Button"
+    },
+    "ftxt.sensor_digital_light_barrier": {
+        "message": "Light barrier",
+        "description": "Light barrier"
+    },
+    "ftxt.sensor_digital_reed": {
+        "message": "Reed contact",
+        "description": "Reed contact"
+    },
+    "ftxt.input_digital_closes": {
+        "message": "closes",
+        "description": "closes"
+    },
+    "ftxt.input_digital_opens": {
+        "message": "opens",
+        "description": "opens"
+    },
+    "ftxt.motor_forward": {
+        "message": "forward",
+        "description": "forward"
+    },
+    "ftxt.motor_backwards": {
+        "message": "backwards",
+        "description": "backwards"
+    },
+    "ftxt.onOpenClose": {
+        "message": "If [SENSOR] [INPUT] [OPENCLOSE]",
+        "description": "check when a certain sensor closes or opens"
+    },
+    "ftxt.onCounter": {
+        "message": "If counter [COUNTER_ID] [OPERATOR] [VALUE]",
+        "description": "check when a certain counter changes its value"
+    },
+    "ftxt.onInput": {
+        "message": "If value of [SENSOR] [INPUT] [OPERATOR] [VALUE]",
+        "description": "check when a certain input changes its value"
+    },
+    "ftxt.getCounter": {
+        "message": "Get value of counter [COUNTER_ID]",
+        "description": "get the value of a counter"
+    },
+    "ftxt.getSensor": {
+        "message": "Read value of [SENSOR] [INPUT]",
+        "description": "get the value of a sensor"
+    },
+    "ftxt.isClosed": {
+        "message": "Is [SENSOR] [INPUT] closed?",
+        "description": "check whether a sensor is closed"
+    },
+    "ftxt.doPlaySound": {
+        "message": "Play sound [NUM]",
+        "description": "Play a sound"
+    },
+    "ftxt.doPlaySoundWait": {
+        "message": "Play sound [NUM] and wait",
+        "description": "Play a sound and wait"
+    },
+    "ftxt.doSetLamp": {
+        "message": "Set lamp [OUTPUT] to [NUM]",
+        "description": "Set the value of the given lamp"
+    },
+    "ftxt.doSetOutput": {
+        "message": "Set output [OUTPUT] to [NUM]",
+        "description": "Set the value of the given output"
+    },
+    "ftxt.doResetCounter": {
+        "message": "Reset counter [COUNTER_ID]",
+        "description": "Reset the value of the given counter"
+    },
+    "ftxt.doConfigureInput": {
+        "message": "Set input [INPUT] to [MODE]",
+        "description": "Set the mode of the given input."
+    },
+    "ftxt.doSetMotorSpeed": {
+        "message": "Set motor [MOTOR_ID] to [SPEED]",
+        "description": "Set the speed of the given motor"
+    },
+    "ftxt.doSetMotorDir": {
+        "message": "Set motor [MOTOR_ID] to [DIRECTION]",
+        "description": "Set the direction of the given motor"
+    },
+    "ftxt.doSetMotorSpeedDir": {
+        "message": "Set motor [MOTOR_ID] to [SPEED] [DIRECTION]",
+        "description": "Set speed and direction of the given motor"
+    },
+    "ftxt.doStopMotor": {
+        "message": "Stop motor [MOTOR_ID]",
+        "description": "Stop the given motor."
+    },
+    "ftxt.doSetMotorSpeedDirDist": {
+        "message": "Move motor [MOTOR_ID] by [STEPS] steps with [SPEED] [DIRECTION]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirSync": {
+        "message": "Move motor [MOTOR_ID] and motor [MOTOR_ID2] with [SPEED] [DIRECTION]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirDistSync": {
+        "message": "Move motor [MOTOR_ID] and motor [MOTOR_ID2] by [STEPS] steps with [SPEED] [DIRECTION]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doStopMotorAndReset": {
+        "message": "Reset [MOTOR_ID]",
+        "description": "Stop the motor and reset all synchronizations."
+    },
+    "ftxt.reset": {
+        "message": "Reset",
+        "description": "Reset everything"
     }
 }
