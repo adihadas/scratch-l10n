@@ -472,7 +472,7 @@
         "description": "Move the motor by the given values."
     },
     "ftxt.doStopMotorAndReset": {
-        "message": "Reset [MOTOR_ID]",
+        "message": "Reset [MOTOR]",
         "description": "Stop the motor and reset all synchronizations."
     },
     "ftxt.reset": {
