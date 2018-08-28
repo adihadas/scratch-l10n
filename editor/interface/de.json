@@ -991,10 +991,6 @@
         "message": "Verbinde. Stelle sicher, dass das Kennwort auf deiner EV3 auf 1234 gesetzt ist.",
         "description": "Message to help people connect to their EV3. Must note the PIN should be 1234."
     },
-    "gui.extension.txt.connectingMessage": {
-        "message": "Verbinde. Stelle sicher, dass die Anwendung FTScratchTXT läuft.",
-        "description": "Message to help people connect to their TXT."
-    },
     "gui.extension.wedo2.description": {
         "message": "Baue mit Motoren und Sensoren.",
         "description": "Description for the 'LEGO WeDo 2.0' extension"
@@ -1006,5 +1002,13 @@
     "gui.backpack.header": {
         "message": "Lager",
         "description": "Button to open the backpack"
+    },
+    "gui.extension.txt.connectingMessage": {
+        "message": "Verbinde. Stelle sicher, dass die Anwendung FTScratchTXT läuft.",
+        "description": "Message to help people connect to their Robotics TXT Controller."
+    },
+    "gui.extension.ftxt.description": {
+        "message": "Verbinde deinen Robotics TXT Controller",
+        "description": "Control your Robotics TXT Controller"
     }
 }
