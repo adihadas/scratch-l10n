@@ -692,11 +692,11 @@
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirSync": {
-        "message": "Verfahre Motor [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED]",
+        "message": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED]",
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirDistSync": {
-        "message": "Verfahre Motor [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED] für [STEPS] Schritte",
+        "message": "Verfahre Motoren [MOTOR_ID] [DIRECTION] und [MOTOR_ID2] [DIRECTION2] mit [SPEED] für [STEPS] Schritte",
         "description": "Move the motor by the given values."
     },
     "ftxt.doStopMotorAndReset": {

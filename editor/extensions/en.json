@@ -396,15 +396,15 @@
         "description": "backwards"
     },
     "ftxt.onOpenClose": {
-        "message": "If [SENSOR] [INPUT] [OPENCLOSE]",
+        "message": "When [SENSOR] [INPUT] [OPENCLOSE]",
         "description": "check when a certain sensor closes or opens"
     },
     "ftxt.onCounter": {
-        "message": "If counter [COUNTER_ID] [OPERATOR] [VALUE]",
+        "message": "When counter [COUNTER_ID] [OPERATOR] [VALUE]",
         "description": "check when a certain counter changes its value"
     },
     "ftxt.onInput": {
-        "message": "If value of [SENSOR] [INPUT] [OPERATOR] [VALUE]",
+        "message": "When value of [SENSOR] [INPUT] [OPERATOR] [VALUE]",
         "description": "check when a certain input changes its value"
     },
     "ftxt.getCounter": {
@@ -464,11 +464,11 @@
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirSync": {
-        "message": "Move motor [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] with [SPEED]",
+        "message": "Move motors [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] with [SPEED]",
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirDistSync": {
-        "message": "Move motor [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] by [STEPS] steps with [SPEED]",
+        "message": "Move motors [MOTOR_ID] [DIRECTION] and [MOTOR_ID2] [DIRECTION2] by [STEPS] steps with [SPEED]",
         "description": "Move the motor by the given values."
     },
     "ftxt.doStopMotorAndReset": {
