@@ -580,7 +580,7 @@
         "description": "Ultrasonic"
     },
     "ftxt.sensor_analog_color": {
-        "message": "sensor de colores",
+        "message": "sensor de color",
         "description": "Color Sensor"
     },
     "ftxt.sensor_analog_distance": {
@@ -596,7 +596,7 @@
         "description": "Photo Resistor"
     },
     "ftxt.sensor_digital_button": {
-        "message": "conmutador",
+        "message": "botón",
         "description": "Button"
     },
     "ftxt.sensor_digital_light_barrier": {
@@ -608,11 +608,11 @@
         "description": "Reed contact"
     },
     "ftxt.input_digital_closes": {
-        "message": "cierra",
+        "message": "se cierra",
         "description": "closes"
     },
     "ftxt.input_digital_opens": {
-        "message": "abre",
+        "message": "se abre",
         "description": "opens"
     },
     "ftxt.motor_forward": {
@@ -624,7 +624,7 @@
         "description": "backwards"
     },
     "ftxt.onOpenClose": {
-        "message": "Cuando [SENSOR] [INPUT] [OPENCLOSE]",
+        "message": "Cuando el/la [INPUT] del sensor [SENSOR] [OPENCLOSE]",
         "description": "check when a certain sensor closes or opens"
     },
     "ftxt.onCounter": {
@@ -688,7 +688,7 @@
         "description": "Stop the given motor."
     },
     "ftxt.doSetMotorSpeedDirDist": {
-        "message": "Arrancar el motor [MOTOR_ID]  [STEPS] Schritte mit [SPEED] [DIRECTION]",
+        "message": "Mover el motor [MOTOR_ID] en [STEPS] con velocidad [SPEED] [DIRECTION]",
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirSync": {
