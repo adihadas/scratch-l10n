@@ -516,47 +516,195 @@
         "description": "the value returned by the distance sensor"
     },
     "wedo2.getTiltAngle": {
-        "message": "tilt angle [TILT_DIRECTION]",
+        "message": "angle d'inclinaison [TILT_DIRECTION]",
         "description": "the angle returned by the tilt sensor"
     },
     "wedo2.isTilted": {
-        "message": "tilted [TILT_DIRECTION_ANY]?",
+        "message": "incliné [TILT_DIRECTION_ANY]?",
         "description": "whether the tilt sensor is tilted"
     },
     "wedo2.motorOff": {
-        "message": "turn [MOTOR_ID] off",
+        "message": "éteindre le moteur [MOTOR_ID]",
         "description": "turn a motor off"
     },
     "wedo2.motorOn": {
-        "message": "turn [MOTOR_ID] on",
+        "message": "allumer le moteur [MOTOR_ID]",
         "description": "turn a motor on indefinitely"
     },
     "wedo2.motorOnFor": {
-        "message": "turn [MOTOR_ID] on for [DURATION] seconds",
+        "message": "allumer le moteur [MOTOR_ID] pendant [DURATION] secondes",
         "description": "turn a motor on for some time"
     },
     "wedo2.playNoteFor": {
-        "message": "play note [NOTE] for [DURATION] seconds",
+        "message": "jouer la note [NOTE] pendant [DURATION] secondes",
         "description": "play a certain note for some time"
     },
     "wedo2.setLightHue": {
-        "message": "set light color to [HUE]",
+        "message": "mettre la couleur de la lampe à [HUE]",
         "description": "set the LED color"
     },
     "wedo2.setMotorDirection": {
-        "message": "set [MOTOR_ID] direction to [MOTOR_DIRECTION]",
+        "message": "mettre la direction du moteur [MOTOR_ID] à [MOTOR_DIRECTION]",
         "description": "set the motor's turn direction"
     },
     "wedo2.startMotorPower": {
-        "message": "set [MOTOR_ID] power to [POWER]",
+        "message": "mettre la puissance du moteur [MOTOR_ID] à [POWER]",
         "description": "set the motor's power and turn it on"
     },
     "wedo2.whenDistance": {
-        "message": "when distance [OP] [REFERENCE]",
+        "message": "quand la distance [OP] [REFERENCE]",
         "description": "check for when distance is < or > than reference"
     },
     "wedo2.whenTilted": {
-        "message": "when tilted [TILT_DIRECTION_ANY]",
+        "message": "quand incliné vers [TILT_DIRECTION_ANY]",
         "description": "check when tilted in a certain direction"
+    },
+    "ftxt.input_mode_d10v": {
+        "message": "Tension numérique",
+        "description": "Digital voltage"
+    },
+    "ftxt.input_mode_d5k": {
+        "message": "Résistance numérique",
+        "description": "Digital resistance"
+    },
+    "ftxt.input_mode_a10v": {
+        "message": "Tension analogique",
+        "description": "Analogue voltage"
+    },
+    "ftxt.input_mode_a5k": {
+        "message": "Résistance analogique",
+        "description": "Analogue resistance"
+    },
+    "ftxt.input_mode_ultrasonic": {
+        "message": "Ultrason",
+        "description": "Ultrasonic"
+    },
+    "ftxt.sensor_analog_color": {
+        "message": "Capteur de couleur",
+        "description": "Color Sensor"
+    },
+    "ftxt.sensor_analog_distance": {
+        "message": "Capteur de distance",
+        "description": "Distance Sensor"
+    },
+    "ftxt.sensor_analog_ntc": {
+        "message": "Résistance NTC",
+        "description": "NTC Resistor"
+    },
+    "ftxt.sensor_analog_photo": {
+        "message": "Résistance photo",
+        "description": "Photo Resistor"
+    },
+    "ftxt.sensor_digital_button": {
+        "message": "Interrupteur",
+        "description": "Button"
+    },
+    "ftxt.sensor_digital_light_barrier": {
+        "message": "Barrière lumineuse",
+        "description": "Light barrier"
+    },
+    "ftxt.sensor_digital_reed": {
+        "message": "Contact Reed",
+        "description": "Reed contact"
+    },
+    "ftxt.input_digital_closes": {
+        "message": "ferme",
+        "description": "closes"
+    },
+    "ftxt.input_digital_opens": {
+        "message": "ouvre",
+        "description": "opens"
+    },
+    "ftxt.motor_forward": {
+        "message": "vers l‘avant",
+        "description": "forward"
+    },
+    "ftxt.motor_backwards": {
+        "message": "vers l‘arrière",
+        "description": "backwards"
+    },
+    "ftxt.onOpenClose": {
+        "message": "Si [SENSOR] [INPUT] [OPENCLOSE]",
+        "description": "check when a certain sensor closes or opens"
+    },
+    "ftxt.onCounter": {
+        "message": "Si compteur [COUNTER_ID] [OPERATOR] [VALUE]",
+        "description": "check when a certain counter changes its value"
+    },
+    "ftxt.onInput": {
+        "message": "Si valeur de [SENSOR] [INPUT] [OPERATOR] [VALUE]",
+        "description": "check when a certain input changes its value"
+    },
+    "ftxt.getCounter": {
+        "message": "Si lecture de valeur de compteur [COUNTER_ID]",
+        "description": "get the value of a counter"
+    },
+    "ftxt.getSensor": {
+        "message": "Si lecture de valeur [SENSOR] [INPUT]",
+        "description": "get the value of a sensor"
+    },
+    "ftxt.isClosed": {
+        "message": "[SENSOR] [INPUT] fermé?",
+        "description": "check whether a sensor is closed"
+    },
+    "ftxt.doPlaySound": {
+        "message": "Jouer sound [NUM]",
+        "description": "Play a sound"
+    },
+    "ftxt.doPlaySoundWait": {
+        "message": "Jouer sound [NUM] et attendre",
+        "description": "Play a sound and wait"
+    },
+    "ftxt.doSetLamp": {
+        "message": "Si lumière [OUTPUT] mise sur [NUM]",
+        "description": "Set the value of the given lamp"
+    },
+    "ftxt.doSetOutput": {
+        "message": "Si sortie [OUTPUT] mise sur [NUM]",
+        "description": "Set the value of the given output"
+    },
+    "ftxt.doResetCounter": {
+        "message": "Si compteur [COUNTER_ID] réinitialisé",
+        "description": "Reset the value of the given counter"
+    },
+    "ftxt.doConfigureInput": {
+        "message": "Si entrée [INPUT] mise sur [MODE]",
+        "description": "Set the mode of the given input."
+    },
+    "ftxt.doSetMotorSpeed": {
+        "message": "Si moteur [MOTOR_ID] mise sur [SPEED]",
+        "description": "Set the speed of the given motor"
+    },
+    "ftxt.doSetMotorDir": {
+        "message": "Si moteur [MOTOR_ID] mise sur [DIRECTION]",
+        "description": "Set the direction of the given motor"
+    },
+    "ftxt.doSetMotorSpeedDir": {
+        "message": "Si moteur [MOTOR_ID] mise sur [SPEED] [DIRECTION]",
+        "description": "Set speed and direction of the given motor"
+    },
+    "ftxt.doStopMotor": {
+        "message": "Si moteur [MOTOR_ID] stoppé",
+        "description": "Stop the given motor."
+    },
+    "ftxt.doSetMotorSpeedDirDist": {
+        "message": "Si moteur [MOTOR_ID] ajusté aux étapes [STEPS] avec [SPEED] [DIRECTION]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirSync": {
+        "message": "Si moteur [MOTOR_ID] [DIRECTION] et [MOTOR_ID2] [DIRECTION2] avec [SPEED]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirDistSync": {
+        "message": "Si moteur [MOTOR_ID] [DIRECTION] et [MOTOR_ID2] [DIRECTION2] ajusté aux étapes [STEPS] avec [SPEED]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doStopMotorAndReset": {
+        "message": "Réinitialiser moteur [MOTOR_ID]",
+        "description": "Stop the motor and reset all synchronizations."
+    },
+    "ftxt.reset": {
+        "message": "réinitialiser",
+        "description": "Reset everything"
     }
 }

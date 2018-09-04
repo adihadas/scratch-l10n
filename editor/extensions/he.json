@@ -1,10 +1,10 @@
 {
     "ev3.beepNote": {
-        "message": "beep note [NOTE] for [TIME] secs",
+        "message": "צפצף תו [NOTE]ל[TIME]שניות",
         "description": "play some note on EV3 for some time"
     },
     "ev3.buttonPressed": {
-        "message": "button [PORT] pressed?",
+        "message": "כפתור [PORT] נלחץ?",
         "description": "is a button on some port pressed?"
     },
     "ev3.getBrightness": {
@@ -32,7 +32,7 @@
         "description": "turn a motor counter-clockwise for some time"
     },
     "ev3.whenBrightnessLessThan": {
-        "message": "when brightness < [DISTANCE]",
+        "message": "כאשר בהירות <[DISTANCE]",
         "description": "when value measured by brightness sensor is less than some value"
     },
     "ev3.whenButtonPressed": {
@@ -558,5 +558,153 @@
     "wedo2.whenTilted": {
         "message": "when tilted [TILT_DIRECTION_ANY]",
         "description": "check when tilted in a certain direction"
+    },
+    "ftxt.input_mode_d10v": {
+        "message": "מתח דיגיטלי",
+        "description": "Digital voltage"
+    },
+    "ftxt.input_mode_d5k": {
+        "message": "התנגדות דיגיטלית",
+        "description": "Digital resistance"
+    },
+    "ftxt.input_mode_a10v": {
+        "message": "מתח אנלוגי",
+        "description": "Analogue voltage"
+    },
+    "ftxt.input_mode_a5k": {
+        "message": "התנגדות אנלוגית",
+        "description": "Analogue resistance"
+    },
+    "ftxt.input_mode_ultrasonic": {
+        "message": "אולטרהסוניק",
+        "description": "Ultrasonic"
+    },
+    "ftxt.sensor_analog_color": {
+        "message": "חיישן צבע",
+        "description": "Color Sensor"
+    },
+    "ftxt.sensor_analog_distance": {
+        "message": "חיישן מרחק",
+        "description": "Distance Sensor"
+    },
+    "ftxt.sensor_analog_ntc": {
+        "message": "חיישן טמפרטורה",
+        "description": "NTC Resistor"
+    },
+    "ftxt.sensor_analog_photo": {
+        "message": "חיישן אור",
+        "description": "Photo Resistor"
+    },
+    "ftxt.sensor_digital_button": {
+        "message": "מתג",
+        "description": "Button"
+    },
+    "ftxt.sensor_digital_light_barrier": {
+        "message": "מחסום אור",
+        "description": "Light barrier"
+    },
+    "ftxt.sensor_digital_reed": {
+        "message": "חיישן מגנטיות",
+        "description": "Reed contact"
+    },
+    "ftxt.input_digital_closes": {
+        "message": "נסגר",
+        "description": "closes"
+    },
+    "ftxt.input_digital_opens": {
+        "message": "נפתח",
+        "description": "opens"
+    },
+    "ftxt.motor_forward": {
+        "message": "קדימה",
+        "description": "forward"
+    },
+    "ftxt.motor_backwards": {
+        "message": "אחורה",
+        "description": "backwards"
+    },
+    "ftxt.onOpenClose": {
+        "message": "When [SENSOR] [INPUT] [OPENCLOSE]",
+        "description": "check when a certain sensor closes or opens"
+    },
+    "ftxt.onCounter": {
+        "message": "אם ערכו של מונה [VALUE] [OPERATOR] [COUNTER_ID]",
+        "description": "check when a certain counter changes its value"
+    },
+    "ftxt.onInput": {
+        "message": "[VALUE] [OPERATOR] [INPUT] [SENSOR] אם ערכו של",
+        "description": "check when a certain input changes its value"
+    },
+    "ftxt.getCounter": {
+        "message": "[COUNTER_ID] קרא ערכו של מונה",
+        "description": "get the value of a counter"
+    },
+    "ftxt.getSensor": {
+        "message": "[INPUT] [SENSOR] קרא ערכו של",
+        "description": "get the value of a sensor"
+    },
+    "ftxt.isClosed": {
+        "message": "סגור [INPUT] [SENSOR] האם",
+        "description": "check whether a sensor is closed"
+    },
+    "ftxt.doPlaySound": {
+        "message": "[NUM] נגן צליל",
+        "description": "Play a sound"
+    },
+    "ftxt.doPlaySoundWait": {
+        "message": "נגן צליל [NUM] עד לסיומו",
+        "description": "Play a sound and wait"
+    },
+    "ftxt.doSetLamp": {
+        "message": "קבע עוצמת נורה [OUTPUT] ל [NUM]",
+        "description": "Set the value of the given lamp"
+    },
+    "ftxt.doSetOutput": {
+        "message": "הגדר פלט [OUTPUT] לעוצמה [NUM]",
+        "description": "Set the value of the given output"
+    },
+    "ftxt.doResetCounter": {
+        "message": "אפס מונה [COUNTER_ID]",
+        "description": "Reset the value of the given counter"
+    },
+    "ftxt.doConfigureInput": {
+        "message": "Set input [INPUT] to [MODE]",
+        "description": "Set the mode of the given input."
+    },
+    "ftxt.doSetMotorSpeed": {
+        "message": "קבע מהירות מנוע [MOTOR_ID] ל [SPEED]",
+        "description": "Set the speed of the given motor"
+    },
+    "ftxt.doSetMotorDir": {
+        "message": "קבע כיוון מנוע [MOTOR_ID] ל [DIRECTION]",
+        "description": "Set the direction of the given motor"
+    },
+    "ftxt.doSetMotorSpeedDir": {
+        "message": "קבע מהירות מנוע [MOTOR_ID] ל [SPEED] [DIRECTION]",
+        "description": "Set speed and direction of the given motor"
+    },
+    "ftxt.doStopMotor": {
+        "message": "עצור מנוע [MOTOR_ID]",
+        "description": "Stop the given motor."
+    },
+    "ftxt.doSetMotorSpeedDirDist": {
+        "message": "הזז מנוע [MOTOR_ID] למרחק [STEPS] צעדים במהירות [SPEED] [DIRECTION]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirSync": {
+        "message": "הזז מנועים [MOTOR_ID] [DIRECTION] וגם  [MOTOR_ID2] [DIRECTION2] במהירות [SPEED]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doSetMotorSpeedDirDistSync": {
+        "message": "הזז מנועים [MOTOR_ID] [DIRECTION] וגם [MOTOR_ID2] [DIRECTION2] למרחק [STEPS] צעדים במהירות [SPEED]",
+        "description": "Move the motor by the given values."
+    },
+    "ftxt.doStopMotorAndReset": {
+        "message": "איפוס [MOTOR_ID]",
+        "description": "Stop the motor and reset all synchronizations."
+    },
+    "ftxt.reset": {
+        "message": "Reset",
+        "description": "איפוס"
     }
 }
