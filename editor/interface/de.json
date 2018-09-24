@@ -1026,5 +1026,21 @@
     "gui.extension.ftxt.help1": {
         "message": "Stelle sicher, der Controller mit der FTScratchTXT.exe verbunden ist.",
         "description": "Make sure that your controller is connected to the FTScratchTXT.exe."
+    },
+    "gui.extension.ftbtsmart.connectingMessage": {
+        "message": "Verbinde. Stelle sicher, dass die Anwendung FTScratchBTSmart.exe läuft.",
+        "description": "Message to help people connect to their Robotics TXT Controller."
+    },
+    "gui.extension.ftbtsmart.description": {
+        "message": "Verbinde deinen Robotics BTSmart Controller",
+        "description": "Control your Robotics BTSmart Controller"
+    },
+    "gui.extension.ftbtsmart.help0": {
+        "message": "Stelle sicher, dass die FTScratchBTSmart.exe läuft.",
+        "description": "Make sure that FTScratchBTSmart.exe is running."
+    },
+    "gui.extension.ftbtsmart.help1": {
+        "message": "Stelle sicher, der Controller mit der FTScratchBTSmart.exe verbunden ist.",
+        "description": "Make sure that your controller is connected to the FTScratchBTSmart.exe."
     }
 }
