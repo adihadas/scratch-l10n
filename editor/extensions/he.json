@@ -624,7 +624,7 @@
         "description": "backwards"
     },
     "ftxt.onOpenClose": {
-        "message": "When [SENSOR] [INPUT] [OPENCLOSE]",
+        "message": "[OPENCLOSE] [INPUT] [SENSOR] אם",
         "description": "check when a certain sensor closes or opens"
     },
     "ftxt.onCounter": {
@@ -668,7 +668,7 @@
         "description": "Reset the value of the given counter"
     },
     "ftxt.doConfigureInput": {
-        "message": "Set input [INPUT] to [MODE]",
+        "message": "הגדר סוג קלט [INPUT] ל [MODE]",
         "description": "Set the mode of the given input."
     },
     "ftxt.doSetMotorSpeed": {
@@ -704,7 +704,7 @@
         "description": "Stop the motor and reset all synchronizations."
     },
     "ftxt.reset": {
-        "message": "Reset",
+        "message": "איפוס",
         "description": "איפוס"
     }
 }
