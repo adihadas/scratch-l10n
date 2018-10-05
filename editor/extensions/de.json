@@ -607,6 +607,10 @@
         "message": "Reed-Kontakt",
         "description": "Reed contact"
     },
+    "ftxt.sensor_digital_trail": {
+        "message": "Spursensor",
+        "description": "Trail Sensor"
+    },
     "ftxt.input_digital_closes": {
         "message": "schließt",
         "description": "closes"

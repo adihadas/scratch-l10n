@@ -607,6 +607,10 @@
         "message": "חיישן מגנטיות",
         "description": "Reed contact"
     },
+    "ftxt.sensor_digital_trail": {
+        "message": "Trail Sensor",
+        "description": "Trail Sensor"
+    },
     "ftxt.input_digital_closes": {
         "message": "נסגר",
         "description": "closes"
