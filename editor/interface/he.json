@@ -1012,35 +1012,35 @@
         "description": "Button to open the backpack"
     },
     "gui.extension.txt.connectingMessage": {
-        "message": "Connecting. Make sure the FTScratchTXT.exe is running.",
+        "message": "מתחבר. אנא ודא שתכנית הגישור FTScratchTXT.exe רצה ברקע.",
         "description": "Message to help people connect to their Robotics TXT Controller."
     },
     "gui.extension.ftxt.description": {
-        "message": "Control your Robotics TXT Controller",
+        "message": "שלוט בבקר ה-TXT שלך",
         "description": "Control your Robotics TXT Controller"
     },
     "gui.extension.ftxt.help0": {
-        "message": "Make sure that FTScratchTXT.exe is running.",
+        "message": "אנא ודא שתכנית הגישור FTScratchTXT.exe רצה ברקע.",
         "description": "Make sure that FTScratchTXT.exe is running."
     },
     "gui.extension.ftxt.help1": {
-        "message": "Make sure that your controller is connected to the FTScratchTXT.exe.",
+        "message": "אנא ודא שתכנית הגישור FTScratchTXT.exe מחוברת כרגע אל הרובוט.",
         "description": "Make sure that your controller is connected to the FTScratchTXT.exe."
     },
     "gui.extension.ftbtsmart.connectingMessage": {
-        "message": "Connecting. Make sure the FTScratchBTSmart.exe is running.",
+        "message": "מתחבר. אנא ודא שתכנית הגישור FTScratchTXT.exe רצה ברקע.",
         "description": "Message to help people connect to their Robotics TXT Controller."
     },
     "gui.extension.ftbtsmart.description": {
-        "message": "Control your Robotics BTSmart Controller",
+        "message": "שלוט בבקר ה-BTSmart שלך",
         "description": "Control your Robotics BTSmart Controller"
     },
     "gui.extension.ftbtsmart.help0": {
-        "message": "Make sure that FTScratchBTSmart.exe is running.",
+        "message": "אנא ודא שתכנית הגישור FTScratchBTSmart.exe רצה ברקע.",
         "description": "Make sure that FTScratchBTSmart.exe is running."
     },
     "gui.extension.ftbtsmart.help1": {
-        "message": "Make sure that your controller is connected to the FTScratchBTSmart.exe.",
+        "message": "אנא ודא שתכנית הגישור FTScratchBTSmart.exe מחוברת כרגע אל הרובוט.",
         "description": "Make sure that your controller is connected to the FTScratchBTSmart.exe."
     }
 }
