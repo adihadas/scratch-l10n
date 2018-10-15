@@ -609,7 +609,7 @@
     },
     "ftxt.sensor_digital_trail": {
         "message": "Trail Sensor",
-        "description": "Trail Sensor"
+        "description": "חיישן מסלול"
     },
     "ftxt.input_digital_closes": {
         "message": "נסגר",
@@ -628,31 +628,31 @@
         "description": "backwards"
     },
     "ftxt.onOpenClose": {
-        "message": "[OPENCLOSE] [INPUT] [SENSOR] אם",
+        "message": "כאשר [SENSOR] [INPUT] [OPENCLOSE]",
         "description": "check when a certain sensor closes or opens"
     },
     "ftxt.onCounter": {
-        "message": "אם ערכו של מונה [VALUE] [OPERATOR] [COUNTER_ID]",
+        "message": "כאשר ערכו של מונה [COUNTER_ID] [OPERATOR] [VALUE]",
         "description": "check when a certain counter changes its value"
     },
     "ftxt.onInput": {
-        "message": "[VALUE] [OPERATOR] [INPUT] [SENSOR] אם ערכו של",
+        "message": "כאשר ערכו של [SENSOR] [INPUT] [OPERATOR] [VALUE]",
         "description": "check when a certain input changes its value"
     },
     "ftxt.getCounter": {
-        "message": "[COUNTER_ID] קרא ערכו של מונה",
+        "message": "קרא ערכו של מונה [COUNTER_ID]",
         "description": "get the value of a counter"
     },
     "ftxt.getSensor": {
-        "message": "[INPUT] [SENSOR] קרא ערכו של",
+        "message": "קרא ערכו של [SENSOR] [INPUT]",
         "description": "get the value of a sensor"
     },
     "ftxt.isClosed": {
-        "message": "סגור [INPUT] [SENSOR] האם",
+        "message": "האם [SENSOR] [INPUT] סגור",
         "description": "check whether a sensor is closed"
     },
     "ftxt.doPlaySound": {
-        "message": "[NUM] נגן צליל",
+        "message": "נגן צליל [NUM]",
         "description": "Play a sound"
     },
     "ftxt.doPlaySoundWait": {
@@ -660,11 +660,11 @@
         "description": "Play a sound and wait"
     },
     "ftxt.doSetLamp": {
-        "message": "קבע עוצמת נורה [OUTPUT] ל [NUM]",
+        "message": "קבע עוצמת נורה [NUM] ל [OUTPUT]",
         "description": "Set the value of the given lamp"
     },
     "ftxt.doSetOutput": {
-        "message": "הגדר פלט [OUTPUT] לעוצמה [NUM]",
+        "message": "הגדר פלט [NUM] לעוצמה [OUTPUT]",
         "description": "Set the value of the given output"
     },
     "ftxt.doResetCounter": {
@@ -672,19 +672,19 @@
         "description": "Reset the value of the given counter"
     },
     "ftxt.doConfigureInput": {
-        "message": "הגדר סוג קלט [INPUT] ל [MODE]",
+        "message": "הגדר סוג קלט [MODE] ל [INPUT]",
         "description": "Set the mode of the given input."
     },
     "ftxt.doSetMotorSpeed": {
-        "message": "קבע מהירות מנוע [MOTOR_ID] ל [SPEED]",
+        "message": "קבע מהירות מנוע [SPEED] ל [MOTOR_ID]",
         "description": "Set the speed of the given motor"
     },
     "ftxt.doSetMotorDir": {
-        "message": "קבע כיוון מנוע [MOTOR_ID] ל [DIRECTION]",
+        "message": "קבע כיוון מנוע [DIRECTION] ל [MOTOR_ID]",
         "description": "Set the direction of the given motor"
     },
     "ftxt.doSetMotorSpeedDir": {
-        "message": "קבע מהירות מנוע [MOTOR_ID] ל [SPEED] [DIRECTION]",
+        "message": "קבע מהירות מנוע [SPEED] [DIRECTION] ל [MOTOR_ID]",
         "description": "Set speed and direction of the given motor"
     },
     "ftxt.doStopMotor": {
@@ -696,7 +696,7 @@
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirSync": {
-        "message": "הזז מנועים [MOTOR_ID] [DIRECTION] וגם  [MOTOR_ID2] [DIRECTION2] במהירות [SPEED]",
+        "message": "הזז מנועים [MOTOR_ID] [DIRECTION] וגם [MOTOR_ID2] [DIRECTION2] במהירות [SPEED]",
         "description": "Move the motor by the given values."
     },
     "ftxt.doSetMotorSpeedDirDistSync": {
@@ -704,11 +704,11 @@
         "description": "Move the motor by the given values."
     },
     "ftxt.doStopMotorAndReset": {
-        "message": "איפוס [MOTOR_ID]",
+        "message": "אפס מנוע [MOTOR_ID]",
         "description": "Stop the motor and reset all synchronizations."
     },
     "ftxt.reset": {
         "message": "איפוס",
-        "description": "איפוס"
+        "description": "Reset controller"
     }
 }
